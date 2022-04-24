@@ -1,3 +1,7 @@
 # Directories
 dist/
 src/UCurriculum_Student.egg-info
+
+# Files
+.cfg
+.toml
