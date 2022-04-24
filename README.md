@@ -7,5 +7,5 @@ Python library dedicated to extract the information from the "Seguimiento Curric
 The library is avaible on PyPi:
 
 ```shell
-$ pip install something
+$ pip install ucurriculum-student
 ```
