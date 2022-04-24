@@ -1,7 +1,9 @@
 # Directories
 dist/
-src/UCurriculum_Student.egg-info
+ucurriculum_student.egg-info/
+build/
 
 # Files
+setup.py
 setup.cfg
 pyproject.toml
