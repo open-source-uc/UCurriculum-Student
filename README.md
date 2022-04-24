@@ -15,7 +15,7 @@ $ pip install ucurriculum-student
 After installing UCurriculum-Student, you can start using it from Python like this:
 
 ```python
-from ucurriculum-student import Student
+from ucurriculum_student import Student
 
 user = Student("USERNAME", "PASSWORD")
 ```
