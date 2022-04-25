@@ -1,8 +1,5 @@
 # UCurriculum-Student🧍
 
-**THIS CODE ISN'T WORKING.**
-Currently, the code is not working because a problem related to Cod. Curriculum. We are working on fixing this problem.
-
 Python library dedicated to extract the information from the "Seguimiento Curricular" page of the Pontifical Catholic University of Chile (UC); in particular, the actual courses taken by a student.
 
 ## Installation
@@ -27,7 +24,7 @@ Were `USERNAME` and `PASSWORD` refers to the username and password, respectively
 ### Obtaining information
 
 After setting up the class in your virtual enviorement, you should want to obtain the information. For now, the library possesses only one method.
-This is the `actual_courses` method; it returns a dictionary where every course taken by the student in the actual semester is a **Key** and his respective section where the student is is his **Value**.
+This is the `actual_courses` method; it returns a dictionary where every course taken by the student in the actual semester is a **Key** and his respective section where the student is is his **Value**. Note that this only works for the first degree that appears in "Seguimiento Curricular" dropdown menu.
 
 ```python
 courses_taken_dict = user.actual_courses()
