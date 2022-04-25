@@ -1,8 +1,5 @@
 # UCurriculum-Student🧍
 
-**THIS CODE ISN'T WORKING.**
-Currently, the code is not working because a problem related to Cod. Curriculum. We are working on fixing this problem.
-
 Python library dedicated to extract the information from the "Seguimiento Curricular" page of the Pontifical Catholic University of Chile (UC); in particular, the actual courses taken by a student.
 
 ## Installation
@@ -47,3 +44,4 @@ print(courses_taken_dict)
 
 
 
+*
