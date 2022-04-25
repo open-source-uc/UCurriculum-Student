@@ -2,9 +2,11 @@
 dist/
 ucurriculum_student.egg-info/
 build/
+ucurriculum_student/__pycache__/
 
 # Files
 setup.py
 setup.cfg
 pyproject.toml
 test.py
+geckodriver.log

@@ -1,9 +1,11 @@
+import requests
 from time import sleep
 from bs4 import BeautifulSoup
 from uc_sso import get_ticket
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
+from selenium.webdriver.firefox.options import Options
 from webdriver_manager.firefox import GeckoDriverManager
 
 class Student:
@@ -14,14 +16,15 @@ class Student:
         Given the name and password, access the URL of "Seguimiento Curricular UC" 
         and submit the form.
         """
+        # Do not open a browser when choosing the webdriver
+        options = Options()
+        options.add_argument("--headless")
 
         # Choose the webdriver
-        self.driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
+        self.driver = webdriver.Firefox(executable_path=GeckoDriverManager().install(), options=options)
 
-        # Get tickets from the SSO UC
+        # Get tickets from the SSO UC. (The get_ticket function handles the error of invalid credentials)
         ticket = get_ticket(name, password, "https://seguimientocurricular.uc.cl/")
-
-        # We need to check that the ticket returns a 200
 
         # Access the URL
         self.driver.get(ticket.service_url)
