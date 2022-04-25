@@ -30,8 +30,8 @@ class Student:
         self.driver.get(ticket.service_url)
 
         # Find the drop-down element by id and select the value of the option
-        select = Select(self.driver.find_element(By.ID, "j_idt49:_t52"))
-        select.select_by_value("050014")
+        dropdown = Select(self.driver.find_element(By.ID, "j_idt49:_t52"))
+        dropdown.select_by_index(0)
 
         # Submit the drop-down form
         self.driver.find_element(By.ID, "j_idt49:_t55").click()
