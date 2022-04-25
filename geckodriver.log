@@ -85,7 +85,8 @@ DevTools listening on ws://localhost:62008/devtools/browser/78887488-4f37-49db-8
 Read port: 62028
 1650919073552	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://seguimientocurricular.uc.cl"
-1650919439625	geckodriver	INFO	Listening on 127.0.0.1:62182
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:62182
 1650919442709	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "62183" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofile4jZh7L"
 *** You are running in headless mode.
 1650919442991	Marionette	INFO	Marionette enabled
