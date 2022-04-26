@@ -1,6 +1,6 @@
 # UCurriculum-Student🧍
 
-Python library dedicated to extract the information from the "Seguimiento Curricular" page of the Pontifical Catholic University of Chile (UC); in particular, the actual courses taken by a student.
+Python library dedicated to extract the information from the "Seguimiento Curricular" page of the Pontifical Catholic University of Chile (UC); in particular, the actual courses taken by a student. *Note that this only works for the first degree that appears in "Seguimiento Curricular" dropdown menu.*
 
 ## Installation
 
@@ -24,7 +24,7 @@ Were `USERNAME` and `PASSWORD` refers to the username and password, respectively
 ### Obtaining information
 
 After setting up the class in your virtual enviorement, you should want to obtain the information. For now, the library possesses only one method.
-This is the `actual_courses` method; it returns a dictionary where every course taken by the student in the actual semester is a **Key** and his respective section where the student is is his **Value**. *Note that this only works for the first degree that appears in "Seguimiento Curricular" dropdown menu.*
+This is the `courses` method; it returns a dictionary where every course taken by the student in the actual semester is a **Key** and his respective section where the student is is his **Value**.
 
 ```python
 courses_taken_dict = user.actual_courses()
@@ -37,6 +37,18 @@ print(courses_taken_dict)
 }
 ```
 
+As well, we have the `nrcs` method; it returns a list with every NRC that the student is right now.
+
+```python
+nrcs_list = user.nrcs()
+print(nrcs_list)
+
+>>> [
+"NRC_0",
+"NRC_1",
+...
+]
+```
 
 
 
