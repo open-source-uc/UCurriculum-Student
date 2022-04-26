@@ -1,1 +1,1 @@
-from .main import Student
+from .SeguimientoCurricular import Student
