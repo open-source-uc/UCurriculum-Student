@@ -1,4 +1,3 @@
-import requests
 from time import sleep
 from bs4 import BeautifulSoup
 from uc_sso import get_ticket
@@ -9,6 +8,9 @@ from selenium.webdriver.firefox.options import Options
 from webdriver_manager.firefox import GeckoDriverManager
 
 class Student:
+    """
+    This class is dedicated only to the information related to a student.
+    """
 
     def __init__(self, name, password):
         """
@@ -48,7 +50,7 @@ class Student:
         # Read the html text
         self.soup = BeautifulSoup(html_text, "lxml")
 
-    def actual_courses(self):
+    def courses(self):
         """
         Return the actual courses that the student is coursing.
         This function will return a dictionary specifing the section that the student is;
@@ -56,7 +58,7 @@ class Student:
         """
 
         # Initialization of variables
-        actual_courses = {}
+        courses = {}
         i = 0
 
         # Loop until we can't find any more courses
@@ -74,7 +76,33 @@ class Student:
             
             course = raw_course.text
             section = raw_section.text
-            actual_courses[course] = section
+            courses[course] = section
             i += 1
 
-        return actual_courses
+        return courses
+
+    def nrcs(self):
+        """
+        Return the NRC's of the actual courses that the student is coursing.
+        This function will return a list.
+        """
+
+        # Initialization of variables
+        nrcs = []
+        i = 0
+
+        # Loop until we can't find any more nrcs
+        while True:
+            
+            # Find the raw nrcs
+            raw_nrc = self.soup.find("span", id=f"j_idt49:_t253:{i}:_t282")
+
+            # Break statement
+            if raw_nrc is None:
+                break
+            
+            nrc = raw_nrc.text
+            nrcs.append(nrc)
+            i += 1
+
+        return nrcs
