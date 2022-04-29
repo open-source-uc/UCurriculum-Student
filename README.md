@@ -25,11 +25,23 @@ This is the principal class of the library.
 ## Obtaining information
 
 After setting up the class in your virtual enviorement, you should want to obtain the information.
-For this exists the `courses` method; it returns a dictionary of **strings** where every course taken by the student in the actual semester is a **Key** and his respective section where the student is is his **Value**.
+For this we have two methods:
 
 ```python
-courses_taken_dict = user.actual_courses()
-print(courses_taken_dict)
+user.sections()
+```
+
+```python
+user.nrcs()
+```
+
+### Methods
+
+The `sections` method; it returns a dictionary of **strings** where every course taken by the student in the actual semester is a **Key** and his respective section where the student is is his **Value**.
+
+```python
+courses_sections_dict = user.sections()
+print(courses_sections_dict)
 
 >>> {
 "COURSE_0": "SECTION NUMBER",
@@ -38,11 +50,11 @@ print(courses_taken_dict)
 }
 ```
 
-As well, we have the `nrcs` method; it returns a dictionary of **strings** where every course taken by the student in the actual semester is a **Key** and his respective NRC is his **Value**.
+Meanwhile, the `nrcs` method it returns a dictionary of **strings** where every course taken by the student in the actual semester is a **Key** and his respective NRC is his **Value**.
 
 ```python
-nrcs_list = user.nrcs()
-print(nrcs_list)
+courses_nrcs_dict = user.nrcs()
+print(courses_nrcs_dict)
 
 >>> {
 "COURSE_0": "NRC_0",
