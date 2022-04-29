@@ -68,6 +68,8 @@ print(courses_nrcs_dict)
 This library possesses an extra function not related to extracting information from "Seguimiento Curricular" but "BuscaCursos". This is the `CourseSchedule` function; requires a NCR from a course in the form of a string and it returns a dictionary of **strings** with the schedule of every activity of the course.
 
 ```python
+from ucurriculum_student import CourseSchedule
+
 schedule = CourseSchedule("EXAMPLE_NRC")
 print(schedule)
 
