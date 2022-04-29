@@ -97,3 +97,306 @@ DevTools listening on ws://localhost:62183/devtools/browser/a4c9d7ea-022a-40b6-9
 Read port: 62204
 1650919443949	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://seguimientocurricular.uc.cl"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1650931762135	geckodriver	INFO	Listening on 127.0.0.1:54267
+1650931765184	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "54268" "-no-remote" "-profile" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofilehh3OFY"
+*** You are running in headless mode.
+1650931765489	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofilehh3OFY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54268/devtools/browser/33c5c099-86b9-4627-b83b-547b9eef59a1
+1650931766411	Marionette	INFO	Listening on port 54274
+1650931766777	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://seguimientocurricular.uc.cl"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:54329
+1650931806774	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "54330" "-no-remote" "-profile" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofileEHwtbd"
+*** You are running in headless mode.
+1650931807064	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofileEHwtbd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54330/devtools/browser/f08ec1a8-e0b6-4b8c-a91f-c35e6592bdfd
+1650931808016	Marionette	INFO	Listening on port 54335
+1650931808337	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://seguimientocurricular.uc.cl"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1651017229324	geckodriver	INFO	Listening on 127.0.0.1:58274
+1651017232396	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "58275" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofileZfLV6F"
+*** You are running in headless mode.
+1651017232816	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofileZfLV6F\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58275/devtools/browser/77aa69e5-08db-443c-8b41-a3aa4123f7dd
+1651017233895	Marionette	INFO	Listening on port 58296
+Read port: 58296
+1651017233936	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://buscacursos.uc.cl"
+1651017279013	geckodriver	INFO	Listening on 127.0.0.1:58336
+1651017282084	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "58337" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofilevM9M5g"
+*** You are running in headless mode.
+1651017282399	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofilevM9M5g\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58337/devtools/browser/12d5bb76-d1c4-4779-8e59-2a599a6bee2f
+1651017283394	Marionette	INFO	Listening on port 58358
+Read port: 58358
+1651017283499	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://buscacursos.uc.cl"
+1651024916189	geckodriver	INFO	Listening on 127.0.0.1:52600
+1651024919204	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "52601" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofilejtydZ7"
+*** You are running in headless mode.
+1651024919552	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofilejtydZ7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52601/devtools/browser/a7b7bc4c-e3b1-41ed-98b8-c865ebf17872
+1651024920820	Marionette	INFO	Listening on port 52623
+Read port: 52623
+1651024920940	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:52661
+1651024931894	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "52662" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofilefM8yr9"
+*** You are running in headless mode.
+1651024932183	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofilefM8yr9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52662/devtools/browser/eae5674e-509e-49bc-a1cd-95b6eccbcd43
+1651024933110	Marionette	INFO	Listening on port 52682
+Read port: 52682
+1651024933220	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:52732
+1651024957528	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "52733" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofileNXJLg8"
+*** You are running in headless mode.
+1651024957825	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofileNXJLg8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52733/devtools/browser/df2cc6bd-1c80-4a5a-8d68-fd8cb07c283f
+1651024958817	Marionette	INFO	Listening on port 52756
+Read port: 52756
+1651024958874	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:52807
+1651025009490	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "52808" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofilefpXyL6"
+*** You are running in headless mode.
+1651025009803	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofilefpXyL6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52808/devtools/browser/766cc5e1-a3bb-481d-a8e2-effa1cca7322
+1651025010740	Marionette	INFO	Listening on port 52830
+Read port: 52830
+1651025010821	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://buscacursos.uc.cl"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:52895
+1651025217500	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "52896" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofilesbcCQx"
+*** You are running in headless mode.
+1651025217775	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofilesbcCQx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52896/devtools/browser/042e9ad5-5025-4bf3-be23-b6846c5465d2
+1651025218717	Marionette	INFO	Listening on port 52917
+Read port: 52917
+1651025218832	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://buscacursos.uc.cl"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:53076
+1651025669537	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "53077" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofilez7copE"
+*** You are running in headless mode.
+1651025669853	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofilez7copE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53077/devtools/browser/ef6682f4-8e6a-4435-94db-c6f0d5560f00
+1651025670854	Marionette	INFO	Listening on port 53097
+Read port: 53097
+1651025670982	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://buscacursos.uc.cl"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:53141
+1651025734736	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "53142" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofile307YyW"
+*** You are running in headless mode.
+1651025735021	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofile307YyW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53142/devtools/browser/e11efff8-9609-4e79-a2b8-fba4a859dccb
+1651025736002	Marionette	INFO	Listening on port 53162
+Read port: 53162
+1651025736111	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://buscacursos.uc.cl"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:53204
+1651025802518	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "53205" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofileearifk"
+*** You are running in headless mode.
+1651025802820	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofileearifk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53205/devtools/browser/75fe560d-b596-4772-bbe7-6a06f07dd714
+1651025803803	Marionette	INFO	Listening on port 53226
+Read port: 53226
+1651025803867	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://buscacursos.uc.cl"
+1651025850748	geckodriver	INFO	Listening on 127.0.0.1:53272
+1651025853805	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "53273" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofilemVcLWN"
+*** You are running in headless mode.
+1651025854099	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofilemVcLWN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53273/devtools/browser/bf1eceac-5d98-463f-95ed-370985fa3a19
+1651025855141	Marionette	INFO	Listening on port 53294
+Read port: 53294
+1651025855195	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://buscacursos.uc.cl"
+1651191585193	geckodriver	INFO	Listening on 127.0.0.1:56213
+1651191588254	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "56214" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofile6DkViX"
+*** You are running in headless mode.
+1651191588670	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofile6DkViX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56214/devtools/browser/73d7541a-5dce-459d-bbe4-cc0410a500b2
+1651191590021	Marionette	INFO	Listening on port 56240
+Read port: 56240
+1651191590086	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:56300
+1651191626635	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "56301" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofileyp2I3z"
+*** You are running in headless mode.
+1651191627015	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofileyp2I3z\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56301/devtools/browser/cc347a33-cc4a-4deb-a5a6-b397cc9a3a36
+1651191628026	Marionette	INFO	Listening on port 56321
+Read port: 56321
+1651191628143	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://buscacursos.uc.cl"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:56383
+1651191683886	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "56384" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofileEItwB2"
+*** You are running in headless mode.
+1651191684278	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofileEItwB2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56384/devtools/browser/cc427edd-16c3-4e7e-8a00-d1a49de3a6e7
+1651191686111	Marionette	INFO	Listening on port 56410
+Read port: 56410
+1651191686191	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://buscacursos.uc.cl"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\ignac\AppData\Local\Temp\rust_mozprofileEItwB2\bookmarkbackups\bookmarks-2022-04-28_11_MCj18drKFoBGV0HQmd6weA==.jsonlz4) because it does not exist
+--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofileAJj5Ok"
+*** You are running in headless mode.
+1651193471344	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofileAJj5Ok\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61016/devtools/browser/a0a05313-ce93-4633-a515-5fb057c131d3
+1651193472345	Marionette	INFO	Listening on port 61038
+Read port: 61038
+1651193472397	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://buscacursos.uc.cl"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:61092
+1651193652879	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "61093" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofilelcn7k2"
+*** You are running in headless mode.
+1651193653171	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofilelcn7k2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61093/devtools/browser/ad0bad97-6d4a-4148-b23b-64b4bc9fece2
+1651193654273	Marionette	INFO	Listening on port 61116
+Read port: 61116
+1651193654296	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://buscacursos.uc.cl"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:61164
+1651193689464	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "61165" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofileElwQ5E"
+*** You are running in headless mode.
+1651193689825	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofileElwQ5E\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61165/devtools/browser/2e5d53a4-f065-479b-8533-266db27c76ef
+1651193690814	Marionette	INFO	Listening on port 61187
+Read port: 61187
+1651193690897	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://buscacursos.uc.cl"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\ignac\AppData\Local\Temp\rust_mozprofileElwQ5E\bookmarkbackups\bookmarks-2022-04-28_11_CqxfxWzW1DvvEy+QBCZCfA==.jsonlz4) because it does not exist
+file" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofilet46dty"
+*** You are running in headless mode.
+1651193840170	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofilet46dty\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61253/devtools/browser/831454bb-66c1-4471-bc8b-22cb10d34644
+1651193841407	Marionette	INFO	Listening on port 61275
+Read port: 61275
+1651193841436	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://buscacursos.uc.cl"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\ignac\AppData\Local\Temp\rust_mozprofilet46dty\bookmarkbackups\bookmarks-2022-04-28_11_9ZRpTx6bqUMZmTXWn03eRA==.jsonlz4) because it does not exist
+file" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofileat68KC"
+*** You are running in headless mode.
+1651193867837	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofileat68KC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61319/devtools/browser/41d5b87b-f847-48b0-b3a9-12efe1757d55
+1651193868866	Marionette	INFO	Listening on port 61341
+Read port: 61341
+1651193868979	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://buscacursos.uc.cl"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\ignac\AppData\Local\Temp\rust_mozprofileat68KC\bookmarkbackups\bookmarks-2022-04-28_11_s6NB5NUu-W4tJ4F3B6vmZA==.jsonlz4) because it does not exist
+file" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofileOx33A2"
+*** You are running in headless mode.
+1651193921248	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofileOx33A2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61403/devtools/browser/281a5a84-b907-4357-929c-0f9b9c9946de
+1651193922231	Marionette	INFO	Listening on port 61424
+Read port: 61424
+1651193922271	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://buscacursos.uc.cl"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:61474
+1651193963986	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "61475" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofile7X4jvw"
+*** You are running in headless mode.
+1651193964355	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofile7X4jvw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61475/devtools/browser/80540038-68cc-42f2-9156-2aa87f0e7a89
+1651193965586	Marionette	INFO	Listening on port 61494
+Read port: 61494
+1651193965659	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://buscacursos.uc.cl"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\ignac\AppData\Local\Temp\rust_mozprofile7X4jvw\bookmarkbackups\bookmarks-2022-04-28_11_cGGy-daowpAWE9fQcTTYiQ==.jsonlz4) because it does not exist
+file" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofile0YIMFh"
+*** You are running in headless mode.
+1651194055649	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofile0YIMFh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61561/devtools/browser/f0d1af7d-6027-46b9-8406-84e339ef726d
+1651194056650	Marionette	INFO	Listening on port 61583
+Read port: 61583
+1651194056729	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://buscacursos.uc.cl"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:61631
+1651194088203	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "61632" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofileifHBg8"
+*** You are running in headless mode.
+1651194088488	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofileifHBg8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61632/devtools/browser/e4f52d0e-c3d1-4ce7-9797-8c8e5ddb9131
+1651194089542	Marionette	INFO	Listening on port 61668
+Read port: 61668
+1651194089624	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://buscacursos.uc.cl"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\ignac\AppData\Local\Temp\rust_mozprofileifHBg8\bookmarkbackups\bookmarks-2022-04-28_11_0fr1I92sEuFjXotaOlZ6Yg==.jsonlz4) because it does not exist
+file" "C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofileqCxMwX"
+*** You are running in headless mode.
+1651194146960	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ignac\\AppData\\Local\\Temp\\rust_mozprofileqCxMwX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61717/devtools/browser/359618f9-0e64-4b77-b7f9-37b807486559
+1651194148142	Marionette	INFO	Listening on port 61747
+Read port: 61747
+1651194148169	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://buscacursos.uc.cl"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
