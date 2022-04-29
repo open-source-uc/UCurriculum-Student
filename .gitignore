@@ -10,3 +10,4 @@ setup.cfg
 pyproject.toml
 test.py
 geckodriver.log
+BuscaCursos.py

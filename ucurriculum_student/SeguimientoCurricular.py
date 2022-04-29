@@ -50,9 +50,9 @@ class Student:
         # Read the html text
         self.soup = BeautifulSoup(html_text, "lxml")
 
-    def courses(self):
+    def sections(self):
         """
-        Return the actual courses that the student is coursing.
+        Return the courses with the sections that the student is coursing.
         This function will return a dictionary specifing the section that the student is;
         in the form of {COURSE: SECTION}
         """
@@ -83,26 +83,31 @@ class Student:
 
     def nrcs(self):
         """
-        Return the NRC's of the actual courses that the student is coursing.
-        This function will return a list.
+        Return the courses with the nrcs that the student is coursing.
+        This function will return a dictionary specifing the nrcs that the student is;
+        in the form of {COURSE: NRC}
         """
 
         # Initialization of variables
-        nrcs = []
+        nrcs = {}
         i = 0
 
         # Loop until we can't find any more nrcs
         while True:
             
-            # Find the raw nrcs
-            raw_nrc = self.soup.find("span", id=f"j_idt49:_t253:{i}:_t282")
+            # Find the raw course
+            raw_course = self.soup.find("span", id=f"j_idt49:_t253:{i}:_t257")
 
             # Break statement
-            if raw_nrc is None:
+            if raw_course is None:
                 break
+
+            # Find the raw nrcs
+            raw_nrc = self.soup.find("span", id=f"j_idt49:_t253:{i}:_t282")
             
+            course = raw_course.text
             nrc = raw_nrc.text
-            nrcs.append(nrc)
+            nrcs[course] = nrc
             i += 1
 
         return nrcs
