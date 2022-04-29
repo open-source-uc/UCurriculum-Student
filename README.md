@@ -63,8 +63,17 @@ print(courses_nrcs_dict)
 }
 ```
 
-### Extra Function
+### Auxiliary Function
 
-This library possesses a extra function not related to extracting information from "Seguimiento Curricular" but "BuscaCursos". This is the `CourseSchedule` function; requires a NCR from a course in the form of a string and it returns a list of **strings** with the schedule of the course.
+This library possesses an extra function not related to extracting information from "Seguimiento Curricular" but "BuscaCursos". This is the `CourseSchedule` function; requires a NCR from a course in the form of a string and it returns a dictionary of **strings** with the schedule of every activity of the course.
 
+```python
+schedule = CourseSchedule("EXAMPLE_NRC")
+print(schedule)
 
+>>> {
+    "CLAS": "L-W-J:3",
+    "AYU": "M:3",
+    ...
+}
+```
