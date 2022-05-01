@@ -3,15 +3,15 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 from webdriver_manager.firefox import GeckoDriverManager
 
-# Do not open a browser when choosing the webdriver
-options = Options()
-options.add_argument("--headless")
-
-# Choose the webdriver and enter the BuscaCursos web
-DRIVER = webdriver.Firefox(executable_path=GeckoDriverManager().install(), options=options)
-DRIVER.get("https://buscacursos.uc.cl/")
-
 def CourseSchedule(nrc_course):
+
+    # Do not open a browser when choosing the webdriver
+    options = Options()
+    options.add_argument("--headless")
+
+    # Choose the webdriver and enter the BuscaCursos web
+    DRIVER = webdriver.Firefox(executable_path=GeckoDriverManager().install(), options=options)
+    DRIVER.get("https://buscacursos.uc.cl/")
 
     # Find the NRC section of the code
     DRIVER.find_element(By.NAME, "cxml_nrc").send_keys(nrc_course)
