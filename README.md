@@ -19,12 +19,12 @@ from ucurriculum_student import Student
 
 user = Student("USERNAME", "PASSWORD")
 ```
-Were `USERNAME` and `PASSWORD` refers to the username and password, respectively, for accesing SSO-UC.
+Were `USERNAME` and `PASSWORD` refers to the username and password, respectively, for accessing SSO-UC.
 This is the principal class of the library.
 
 ## Obtaining information
 
-After setting up the class in your virtual enviorement, you should want to obtain the information.
+After setting up the class in your virtual environment, you should want to obtain the information.
 For this we have two methods:
 
 ```python
