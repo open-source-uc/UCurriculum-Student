@@ -1,5 +1,7 @@
 # UCurriculum-Student🧍
 
+Right now, this project is not working. The code will be fixed soon.
+
 Python library dedicated to extract the information from the "Seguimiento Curricular" page of the Pontifical Catholic University of Chile (UC); in particular, the actual courses taken by a student. *Note that this only works for the first degree that appears in "Seguimiento Curricular" dropdown menu.*
 
 ## Installation
